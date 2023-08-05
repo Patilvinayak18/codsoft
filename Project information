@@ -29,6 +29,11 @@ The user can keep using the calculator until they decide to exit the program.
 Overall, this code demonstrates the basic concept of a calculator that can perform basic arithmetic operations and interact with the user through console input and output.
 
 3)WORD COUNT
+It creates a text file named "story.txt" and writes a story into it.
+The story contains a tale of a brave knight named Sir Lancelot who embarks on a quest to rescue a princess held captive by a wicked dragon. After many battles, Sir Lancelot defeats the dragon and saves the princess, restoring peace to the kingdom.
+The program then reads the story from the file, counts the number of words in it using the countWords function, and displays both the story and the total word count on the console.
+It demonstrates how to handle file input/output operations and how to count the number of words in a given text using a stringstream.
+Overall, this code showcases a simple example of file handling and word counting in C++.
 
 
 
