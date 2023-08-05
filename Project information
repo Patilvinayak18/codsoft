@@ -17,3 +17,20 @@ After the game is finished, the program terminates.
 Overall, this code demonstrates the basic concept of generating a random number and implementing a simple number guessing game where the user interacts with the program through console input and output.
 
 2)SIMPLE CALCULATOR
+The program defines four functions (add, subtract, multiply, and divide) to perform the corresponding arithmetic operations on two given numbers.
+In the main function, it displays a welcome message and the available operations (addition, subtraction, multiplication, and division) to the user.
+The user is prompted to enter the operation number (1, 2, 3, or 4) they want to perform.
+The program then asks the user to input two numbers on which the selected operation will be performed.
+It uses a switch statement to select the appropriate arithmetic function based on the user's choice.
+The chosen operation is performed on the given numbers, and the result is stored in the result variable.
+The program then displays the expression in the form "num1 operatorSymbol num2 = result" to show the calculated result.
+The program handles division by zero and displays an error message in case the user attempts to divide by zero.
+The user can keep using the calculator until they decide to exit the program.
+Overall, this code demonstrates the basic concept of a calculator that can perform basic arithmetic operations and interact with the user through console input and output.
+
+3)WORD COUNT
+
+
+
+
+
