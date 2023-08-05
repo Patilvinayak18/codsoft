@@ -5,3 +5,15 @@ Thank You codsoft for giving me this opportunity.
 here are the detail information about program and how it works.
 
 1)Number Guessing Game
+The program uses the srand(time(0)) function to seed the random number generator with the current time, ensuring that a different random number is generated each time the program runs.
+It generates a random number between 1 and 10 (inclusive) using the expression rand() % 10 + 1.
+The program prompts the user to guess the number and repeatedly provides feedback (too low or too high) until the user guesses the correct number.
+Inside the while loop, it increments the tries variable to keep track of the number of attempts made by the user.
+If the user's guess is lower than the generated number, it displays "TOO LOW!! Please try a greater number."
+If the user's guess is higher than the generated number, it displays "TOO HIGH!! Please try a smaller number."
+If the user's guess matches the generated number, it displays "CORRECT!! YOU GUESS THE RIGHT NUMBER" and breaks out of the loop.
+The game continues until the user guesses the correct number.
+After the game is finished, the program terminates.
+Overall, this code demonstrates the basic concept of generating a random number and implementing a simple number guessing game where the user interacts with the program through console input and output.
+
+2)SIMPLE CALCULATOR
